@@ -1,0 +1,44 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <meta name="GENERATOR" content="UTF-8 Writer" />
+ <meta name="robots" content="noindex,nofollow" />
+<title>sample</title>
+
+<style type="text/css">
+<!--
+
+-->
+</style>
+
+</head>
+<body bgcolor="#ffffff" text="#000000" link="#0000ff" alink="#ff0000" vlink="#800080">
+<script type="text/javascript">
+<!--
+
+//set default value 
+var nums = new Array();
+for (i=0; i < 100; i++) {
+  nums = nums.concat(i+1);
+}
+
+for (j=0 ; j < nums.length ; j++) {
+
+  var result = "";
+
+  if (nums[j] % 3 == 0) result = "Fizz";
+
+  if (nums[j].toString().indexOf("3", 0) != -1) result = result + "Buzz";
+  
+  if (result == "") result = nums[j].toString();
+
+  document.write(result + "</br>");
+}
+
+// -->
+</script>
+
+</body>
+</html>
