@@ -1,0 +1,67 @@
+<!-- 1~100までの数字表示していった時に、
+	その数字が3の倍数になる場合は"情報"を表示する。
+	3のの付く数字の場合になる場合は"戦略"を表示する。 
+	また、両方の条件に合う場合は"情報戦略テクノロジー"を表示するscriptを作成せよ！
+	出力例
+	1
+	2
+	情報戦略テクノロジー
+	4
+	5
+	情報
+-->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ <meta name="GENERATOR" content="UTF-8 Writer" />
+ <meta name="robots" content="noindex,nofollow" />
+<title>question2</title>
+
+<style type="text/css">
+<!--
+
+-->
+</style>
+
+</head>
+<body bgcolor="#ffffff" text="#000000" link="#0000ff" alink="#ff0000" vlink="#800080">
+<script type="text/javascript">
+<!--
+	function numberView() {
+
+		var number = new String();
+		for (i=0; i < 100; i++) {
+
+			var num = Number(i + 1);
+			if ((num % 3 == 0) && (num.toString().indexOf("3", 0) != -1)) {
+				number += "情報戦略テクノロジー" + "</br>";
+			} else if (num % 3 == 0) {
+				number += "情報" + "</br>";
+			} else if (num.toString().indexOf("3", 0) != -1) {
+				number += "戦略" + "</br>";
+			} else {
+				number += num + "</br>";
+			}
+		}
+
+		var createElement = document.createElement('div');
+		createElement.innerHTML = number;
+
+		document.getElementsByTagName('div').item(0).appendChild(createElement);
+	}
+
+// -->
+</script>
+
+
+<button name="push" onclick="numberView();">
+	push
+</button>
+
+<div></div>
+
+
+</body>
+</html>
