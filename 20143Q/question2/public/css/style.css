@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-color: #F3F3F3;
+  font-size: 14px;
+  line-height: 1.3;
+  font-weight: normal;
+  height: 100%;
+}
+
+body.about-page {
+    padding-top:45px;
+}
+
+/* 下地白 */
+.subBody {
+  background-color: #FFFFFF;
+  padding:10px;
+  border-style: none; /* ボーダーをなくす */  
+  border-radius:20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* main font css */
+
+
+p.content-font {
+  font-size: 20px;
+  font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+
+
+/* main button css */
+.btn-main {
+  font-size:14px;
+  font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+  text-align:center;
+  padding:4px 5px;
+  border-radius:5px;
+  background-color: #248; /* 背景色を濃い青色に指定 */
+  color: #fff; /* 文字色を白色に指定 */
+  border-style: none; /* ボーダーをなくす */  
+  font-weight: bold; /* 文字の太さをboldに指定 */
+}
+
+.btn-main:hover {
+  background-color: #24d; /* 背景色を濃い青色に指定 */
+  color: #fff; /* 文字色を白色に指定 */
+}
+
