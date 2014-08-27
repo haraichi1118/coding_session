@@ -12,11 +12,7 @@ function loadJson() {
   var lim = 5;
   var ofs;
   
-  if(count == 0) {
-    ofs = 0;
-  } else {
-    ofs = count;
-  }
+  (count == 0)? ofs = 0 : ofs = count;
   
   $.ajax({
     dataType: "json",
