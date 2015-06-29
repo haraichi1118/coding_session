@@ -19,8 +19,6 @@ body.about-page {
   padding:10px;
   border-style: none; /* ボーダーをなくす */  
   border-radius:20px;
-  height: 100%;
-  width: 70%;
   margin: 0 auto;
 }
 
@@ -32,7 +30,43 @@ body.about-page {
 }
 
 p.content-font {
-  font-size: 20px;
+  font-size: 14px;
   font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
 }
 
+/* main button css */
+.btn-main {
+  font-size:14px;
+  font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+  text-align:center;
+  padding:4px 5px;
+  border-radius:5px;
+  background-color: #248; /* 背景色を濃い青色に指定 */
+  color: #fff; /* 文字色を白色に指定 */
+  border-style: none; /* ボーダーをなくす */  
+  font-weight: bold; /* 文字の太さをboldに指定 */
+}
+
+.btn-main:hover {
+  background-color: #24d; /* 背景色を濃い青色に指定 */
+  color: #fff; /* 文字色を白色に指定 */
+}
+
+.grid1, .grid2, .grid3, .grid4, .grid5, .grid6, .grid7, .grid8, .grid9, .grid10, .grid11 {
+    float: left;
+    display: inline;
+    margin-left: 20px;
+    padding: 5px;
+}
+.grid1 {width: 60px;}
+.grid2 {width: 140px;}
+.grid3 {width: 220px;}
+.grid4 {width: 300px;}
+.grid5 {width: 380px;}
+.grid6 {width: 460px;}
+.grid7 {width: 540px;}
+.grid8 {width: 620px;}
+.grid9 {width: 700px;}
+.grid10 {width: 780px;}
+.grid11 {width: 860px;}
+.first {margin-left: 0;clear: left;}
